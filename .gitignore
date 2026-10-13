@@ -1,0 +1,36 @@
+# Virtual environments
+auth/
+.venv/
+env/
+venv/
+ENV/
+
+# Local MLflow experiment tracking storage
+mlruns/
+.mlflow/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables & secrets
+.env
+.env.*
+*.secret
+secrets.json
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Explicitly ensure essential deployment assets are NOT excluded
+!model.pkl
+!app.py
+!requirements.txt

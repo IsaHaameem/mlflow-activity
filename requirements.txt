@@ -1,0 +1,7 @@
+mlflow
+xgboost
+scikit-learn
+pandas
+gradio
+joblib
+pytest
